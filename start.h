@@ -7,7 +7,7 @@ void start(int start) {
 		cout << "___________________________________________\nTo control, use numbers from (1) to (4)\nTo continue 1:" << endl;
 		cin >> con;
 	}
-	if (con > 0 && con < 5) {
+	if (con == 1) {
 		cout << "___________________________________________\nYou woke up in an unknown place. It looks like a basement..." << endl;
 		cin >> con1;
 	}
