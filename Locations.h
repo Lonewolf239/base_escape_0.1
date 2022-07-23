@@ -23,7 +23,7 @@ void location1(int loc, int c1) {
 	}
 	switch (c1) {
 	case 1:
-		cout << "___________________________________________\nYou went to the windowand tried to open it...it's closed\nGo back 1; Look out window 2" << endl;
+		cout << "___________________________________________\nYou went to the window and tried to open it...it's closed\nGo back 1; Look out window 2" << endl;
 		cin >> wind1;
 		if (wind1 == 1) {
 			cycle1(1);
@@ -69,7 +69,7 @@ void location2(int isHasKnife, int c2) {
 		cin >> c2;
 		switch (c2) {
 		case 1:
-			cout << "___________________________________________\nYou went to the windowand tried to open it...it's closed\nGo back 1; Look out window 2" << endl;
+			cout << "___________________________________________\nYou went to the window and tried to open it...it's closed\nGo back 1; Look out window 2" << endl;
 			cin >> wind2;
 			if (wind2 == 1) {
 				cycle2(1);
@@ -117,7 +117,7 @@ void location3(int isHasKey, int c3) {
 	}
 	switch (c3) {
 	case 1:
-		cout << "___________________________________________\nYou went to the windowand tried to open it...it's closed\nGo back 1; Look out window 2" << endl;
+		cout << "___________________________________________\nYou went to the window and tried to open it...it's closed\nGo back 1; Look out window 2" << endl;
 		cin >> wind3;
 		if (wind3 == 1) {
 			cycle3(1);
